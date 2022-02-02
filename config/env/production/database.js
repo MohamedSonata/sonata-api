@@ -1,5 +1,5 @@
 const parse = require('pg-connection-string').parse;
-const config = parse(process.env.DATABASE_URL);
+const config = parse('postgresql://doadmin:HRHRJxWC2tKTEo4u@db-postgresql-fra1-40846-do-user-10645723-0.b.db.ondigitalocean.com:25060/defaultdb?sslmode=require');
 
 module.exports = () => ({
   defaultConnection: 'default',
