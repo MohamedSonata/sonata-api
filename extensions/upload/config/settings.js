@@ -6,6 +6,6 @@ module.exports = {
       endpoint: process.env.DO_SPACE_ENDPOINT,
       space: process.env.DO_SPACE_BUCKET,
       directory: process.env.DO_SPACE_DIRECTORY,
-    //   cdn: process.env.DO_SPACE_CDN,
+      cdn: process.env.DO_SPACE_CDN,
     }
   }
