@@ -13,9 +13,10 @@
     "@strapi/plugin-i18n": "4.0.6",
     "@strapi/plugin-users-permissions": "4.0.6",
     "@strapi/strapi": "4.0.6",
+    "aws-sdk": "^2.1066.0",
     "pg-connection-string": "^2.5.0",
     "sqlite3": "5.0.2",
-    "strapi-provider-upload-do": "^3.6.6"
+    "strapi-provider-upload-dos": "^4.0.5"
   },
   "author": {
     "name": "A Strapi developer"
