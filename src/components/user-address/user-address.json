@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_user_address_user_addresses",
+  "info": {
+    "displayName": "UserAddress",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "name_of_user": {
+      "type": "string",
+      "required": true
+    },
+    "deep_address": {
+      "type": "string",
+      "required": true
+    },
+    "phone_number": {
+      "type": "biginteger",
+      "required": true
+    },
+    "sec_phone_number": {
+      "type": "biginteger"
+    },
+    "city": {
+      "type": "enumeration",
+      "enum": [
+        "amman",
+        "alkarak",
+        "irbid",
+        "alzarka"
+      ]
+    }
+  }
+}

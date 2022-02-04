@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_seller_information_sellerinfos",
+  "info": {
+    "displayName": "sellerinfo",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "seller_name": {
+      "type": "string",
+      "required": true
+    },
+    "total_sales": {
+      "required": true,
+      "type": "biginteger",
+      "default": "0"
+    },
+    "seller_phonenumber": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}
