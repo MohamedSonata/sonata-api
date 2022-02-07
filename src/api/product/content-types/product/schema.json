@@ -63,6 +63,12 @@
       "relation": "manyToMany",
       "target": "api::categorie.categorie",
       "inversedBy": "products"
+    },
+    "reviews": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::review.review",
+      "mappedBy": "product"
     }
   }
 }
